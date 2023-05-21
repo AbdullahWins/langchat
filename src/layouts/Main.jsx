@@ -40,10 +40,10 @@ const Main = () => (
       <Layout>
         <Header style={headerStyle}>Header</Header>
         <Layout>
-          <Sider style={siderStyle}>
+          <Sider style={siderStyle}>Slider</Sider>
+          <Content style={contentStyle}>
             <Home></Home>
-          </Sider>
-          <Content style={contentStyle}>Content</Content>
+          </Content>
         </Layout>
         <Footer style={footerStyle}>Footer</Footer>
       </Layout>

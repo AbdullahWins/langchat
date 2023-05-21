@@ -1,13 +1,10 @@
 import React from "react";
-import Button from "@mui/material/Button";
-import { DatePicker } from "antd";
+import DatePickerComponent from "../components/DatePicker/DatePickerComponent";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Button variant="contained">Hello World</Button>
-      <DatePicker />
+    <div className="p-4">
+      <DatePickerComponent></DatePickerComponent>
     </div>
   );
 };
